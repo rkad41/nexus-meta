@@ -1,19 +1,13 @@
 {
-  "Version": "0.14.2",
-  "ReleaseDate": "2022-07-14T00:00:00.000Z",
+  "Version": "1.0.2",
+  "ReleaseDate": "2023-09-25T00:00:00.000Z",
   "ReleaseNotes": [
-    "Hot Fix Patch 0.14.2 added 8/10/22.",
-    "Added ability to run Python scripts from Tools tab using Run Script button.",
-    "Added ability to integrate user defined XTool scripts directly into the Explorer GUI. Documentation on how to do this provided.",
-    "Added a LOT more documentation including a Python primer and XLib cookbook.",
-    "Removed Python 3.9.6. We only use 3.8.10 for Win7 compatibility.",
-    "Nexus Worksheet API no longer fails if the file is not a supported IG-XL file format. Now it just returns None.",
-    "Nexus Worksheet API filter conditions no longer raise Exception when the data is not defined. The value just fails the match condition.",
-    "Installed openpyxl for Excel worksheet support.",
-    "Changed program definition Converters to Interposers.",
-    "Added support for dynamic interposers and added FlowSelector eng interposer.",
-    "Improved error reporting in Explorer.",
-    "Explorer Script tab renamed to Tools.",
-    "Improved error reporting in file system module. Also ignore invalid character errors. Now just treat them as \"unreadable characters\". This fixes a compatibility bug for non-utf8 base encodings."
+    "Expanded Explorer ribbon functionality with theme support.",
+    "Improved Help search feature. Search help using priority weighted literal keywords or regular expressions.",
+    "Added Nexus YAML Editor XView. Use to edit arbitrarily complex Nexus YAML files.",
+    "Added Nexus Pixel XView. Create beautiful, Nexus themed icons for Explorer XTool integration.",
+    "Added hover hints and typing support. Results in easier Nexus Python editing in all modern editors.",
+    "Easier integration of user authored XTools into Nexus Explorer.",
+    "Introduces beta version of Nexus Moxie. Moxie can be used to build and manage program modules."
   ]
 }
